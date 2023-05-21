@@ -1,11 +1,17 @@
 var topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
 var randomTopic = topics[Math.floor(Math.random() * topics.length)];
 
+
+//This function lists the topics HTML, CSS, Git, and Jacascript
+
 function listTopics() {
  for (var x = 0; x < topics.length; x++) {
    console.log(topics[x]);
  }
 }
+
+
+//This function allows us to select one of the topics
 
 function selectTopic() {
  if (randomTopic === 'HTML') {
